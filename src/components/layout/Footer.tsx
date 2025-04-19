@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { Discord, Instagram, Youtube } from "lucide-react";
+import { LayoutGrid, Instagram, Youtube } from "lucide-react";  // Replace Discord with a generic icon
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -34,7 +33,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">تواصل معنا</h3>
             <div className="flex space-x-4">
               <a href="https://discord.gg/delmonrp" target="_blank" rel="noopener noreferrer" className="hover:text-delmon transition-colors">
-                <Discord size={24} />
+                <LayoutGrid size={24} />  {/* Replaced Discord icon */}
               </a>
               <a href="https://instagram.com/delmonrp" target="_blank" rel="noopener noreferrer" className="hover:text-delmon transition-colors">
                 <Instagram size={24} />
